@@ -6,6 +6,19 @@
 }
 .title {
   text-align: center;
+  h1 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgrey;
+    background-color:grey;
+    border-radius: 5px;
+    color:white;
+  }
+  // border-style: solid;
+  // border-width: 3px;
+  // border-color: white;
+  // border-radius: 5px;
+
 }
 .main_container {
   width: 500px;
