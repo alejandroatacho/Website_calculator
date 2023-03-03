@@ -3,6 +3,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.title {
+  text-align: center;
+}
+
 .main_container {
   width: 500px;
   height: 500px;
@@ -40,10 +44,6 @@
   margin-top: 10px;
 }
 
-.button_js_container {
-  padding-left: 33.5%;
-}
-
 .output_js {
   padding-left: 30%;
   font-weight: bold;
@@ -53,8 +53,10 @@
 }
 
 .profile {
-  top: 50px;
   position: relative;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
 }
 .profile p {
   left: 25px;

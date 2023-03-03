@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family:Arial, Helvetica, sans-serif;
 }
+.title {
+  text-align: center;
+}
 .main_container {
   width: 500px;
   height: 500px;
@@ -43,10 +46,10 @@
   
 }
 
-.button_js_container {
-  padding-left: 33.5%;
+// .button_js_container {
+//   padding-left: 33.5%;
   
-}
+// }
 
 .output_js {
   padding-left: 30%;
@@ -56,8 +59,11 @@
   top:90px;
 }
 .profile {
-  top: 50px;
+  // top: 50px;
   position: relative;
+  justify-content: left;
+  align-items: left;
+  text-align:left;
 
   p {
     left: 25px;

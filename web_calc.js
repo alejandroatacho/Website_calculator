@@ -5,15 +5,21 @@ const input2 = document.getElementById('input2');
 
 function yes() {
     output.innerHTML = input1.value * input2.value;
-    if (output.innerHTML >= 100) {
+    if (!input1.value || !input2.value) {
+         if (confirm("The answer is 0, make sure you added a number in both fields.")) {
+    location.reload();
+         }  
+    }
+    
+    else if (output.innerHTML >= 500) {
         output.innerHTML = input1.value * input2.value + ' !';
 
     }
-    // if (output.innerHTML >= 50) {
-    //     alert("You have a number higher then 50: " + output.innerHTML);
-    // }
-    // else {
-    //     alert("You have a number lower then 50: " + output.innerHTML);
-    // }
-
+    else if(input1.value == 0 || input2.value == 0) {
+        output.innerHTML = '0 !';
+    }
+    else {
+        output.innerHTML = input1.value * input2.value + ' ?';
+    }
+    
 }
