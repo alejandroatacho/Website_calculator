@@ -5,6 +5,10 @@ const input2 = document.getElementById('input2');
 
 function yes() {
     output.innerHTML = input1.value * input2.value;
+    if (output.innerHTML >= 100) {
+        output.innerHTML = input1.value * input2.value + ' !';
+
+    }
     // if (output.innerHTML >= 50) {
     //     alert("You have a number higher then 50: " + output.innerHTML);
     // }
