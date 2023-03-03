@@ -1,0 +1,38 @@
+.main_container {
+  width: 500px;
+  height: 500px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  margin: 0 auto;
+  background-image: url("img/Functional_Programming_In_Javascript.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_container_parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin: 0;
+}
+.main_container_parent div {
+  padding: 15px;
+}
+.button_js {
+  width: 100%;
+  max-width: 150px;
+  height: 50px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  /* padding-left:33.5%; */
+}
+.button_js_container {
+  padding-left: 33.5%;
+}
