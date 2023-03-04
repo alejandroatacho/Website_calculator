@@ -62,8 +62,7 @@
 // .button_js_container {
 //   padding-left: 33.5%;
   
-// }
-
+// 
 .output_js {
   padding-left: 30%;
   font-weight: bold;
@@ -98,6 +97,13 @@
     height: 100%;
     //   background-image: url(img/hinamizawa.png);
   }
+}
+.calculator {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 #output {

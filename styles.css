@@ -87,6 +87,13 @@
   height: 100%;
 }
 
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #output {
   color: black;
   font-weight: bold;
