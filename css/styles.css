@@ -1,3 +1,7 @@
+:root {
+  --var-color_blue: blue;
+}
+
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -93,4 +97,17 @@
   font-size: 20px;
   padding-left: 2%;
   position: relative;
+}
+
+@media ALL {
+  * {
+    font-family: "Open Sans", sans-serif;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+.inner_container {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=styles.css.map */

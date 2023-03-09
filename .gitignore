@@ -1,2 +1,4 @@
-
+*/css.map
+*.css
+!styles.css
 styles.css.map
